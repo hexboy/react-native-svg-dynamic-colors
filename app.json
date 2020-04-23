@@ -1,0 +1,27 @@
+{
+  "name": "react-native-svg-dynamic-colors",
+  "displayName": "react-native-svg-dynamic-colors",
+  "expo": {
+    "name": "react-native-svg-dynamic-colors",
+    "slug": "react-native-svg-dynamic-colors",
+    "version": "1.0.0",
+    "platforms": ["ios", "android", "web"],
+    "assetBundlePatterns": ["**/*"],
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "expo.ts",
+        "expo.tsx",
+        "expo.js",
+        "expo.jsx",
+        "ts",
+        "tsx",
+        "js",
+        "jsx",
+        "json",
+        "wasm",
+        "svg"
+      ]
+    }
+  }
+}
