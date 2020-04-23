@@ -7,3 +7,5 @@
 ## 2- cd ios & pod install
 
 ## 4- yarn ios
+
+![result](result.gif)
