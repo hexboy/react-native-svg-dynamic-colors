@@ -19,7 +19,7 @@ const colors = [
 ];
 
 export default function App() {
-  const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(1);
   const primaryColor = colors[index - 1];
   const secondaryColor = colors[index % colors.length];
   return (
@@ -62,12 +62,13 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#f5f5f5',
     alignItems: 'center',
-    justifyContent: 'center'
+    justifyContent: 'flex-start'
   },
   row: {
-    paddingBottom: 20
+    paddingTop: 20
   },
   slider: {
+    marginTop: 30,
     width: '90%'
   }
 });
