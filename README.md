@@ -1,11 +1,27 @@
 # react-native-svg-dynamic-colors
 
-## 0- yarn install
+This is an example for [How to use SVG with Dynamic colors in React Native](https://medium.com/p/171a94e8a8e2)
 
-## 1- yarn android
+## Usage
 
-## 2- cd ios & pod install
+Install dependencies:
+```bash
+yarn install
+```
 
-## 4- yarn ios
+Run android app:
+```bash
+yarn android
+```
+
+Run iOS app:
+```bash
+yarn ios
+```
+
+Run web app:
+```bash
+yarn web
+```
 
 ![result](result.gif)

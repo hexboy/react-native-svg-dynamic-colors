@@ -1,36 +1,31 @@
 {
-  "main": "index.js",
+  "name": "react-native-svg-dynamic-colors",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "homepage": "https://medium.com/@HassanYousefi/how-to-use-svg-with-dynamic-colors-in-react-native-171a94e8a8e2",
   "scripts": {
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
     "web": "expo start --web",
-    "start": "react-native start",
-    "test": "jest"
+    "eject": "expo eject"
   },
   "dependencies": {
-    "expo": "~37.0.3",
-    "expo-updates": "~0.1.0",
-    "react": "~16.9.0",
-    "react-dom": "~16.9.0",
-    "react-native": "~0.62.3",
-    "react-native-gesture-handler": "~1.6.0",
-    "react-native-reanimated": "~1.7.0",
-    "react-native-screens": "~2.2.0",
-    "react-native-svg": "^12.1.0",
-    "react-native-unimodules": "~0.9.0",
-    "react-native-web": "~0.11.7"
+    "@expo/webpack-config": "^0.16.26",
+    "@svgr/webpack": "5.5.0",
+    "expo": "~45.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-native": "0.68.2",
+    "react-native-svg": "12.3.0",
+    "react-native-svg-transformer": "^1.0.0",
+    "react-native-web": "0.17.7"
   },
   "devDependencies": {
-    "@babel/core": "~7.9.0",
-    "@types/react": "~16.9.23",
-    "@types/react-native": "~0.61.23",
-    "babel-preset-expo": "~8.1.0",
-    "jest-expo": "~37.0.0",
-    "react-native-svg-transformer": "^0.14.3",
-    "typescript": "~3.8.3"
-  },
-  "jest": {
-    "preset": "react-native"
+    "@babel/core": "^7.12.9",
+    "@types/react": "~17.0.47",
+    "@types/react-native": "~0.68.2",
+    "typescript": "~4.3.5"
   },
   "private": true
 }
